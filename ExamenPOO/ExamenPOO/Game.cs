@@ -158,5 +158,26 @@ namespace ExamenPOO
                 
 
         }
+        public void movimiento()
+        {
+            Console.WriteLine("Elija bote que desea mover. 1.Portaaviones   2.Fragata   3.Submarino    4.Reparador   5.Radar   escribir string");
+            int bote = Console.Read();
+            int movimientos;
+            if (bote==1 || bote == 5)
+            {
+                movimientos = 1;
+            }
+            else if (bote == 4)
+            {
+                movimientos = 2;
+            }
+            else
+            {
+                movimientos = 3;
+            }
+
+
+
+        }
     }
 }
