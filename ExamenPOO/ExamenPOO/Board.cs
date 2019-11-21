@@ -8,7 +8,9 @@ namespace ExamenPOO
 {
     class Board
     {
-        private int[] horizontal = new int[10];
-        private int[] vertical = new int [10];
+        public int[] horizontal = new int[10] {0,0,0,0,0,0,0,0,0,0 };
+        public int[] vertical = new int [10] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+        
     }
 }
